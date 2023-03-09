@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* başlangıç işlemi*/
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image:  url(aşk\ grup\ metallica.jpg);
+    background-position: center ;
+    background-size: cover;
+} 
+/* sayfayı kaplayan alan-resim */
+.navbar {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+/* sayfa düzeni */
+.content{
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    color: rgb(236, 224, 11);
+    text-align: center;
+ }
+ /* tüm yazıları etkileyen genel işlem */
+.content h1{
+    font-size: 75px;
+}
+.content p{
+    margin: 39px auto
+}

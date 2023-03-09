@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    /* başlangıç işlemi*/
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://api.time.com/wp-content/uploads/2016/04/160406-guns-and-roses-1980s-03.jpg);
+    background-position: center ;
+    background-size: cover;
+} 
+/* sayfayı kaplayan alan-resim */
+.navbar {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    /* sayfa düzeni */
+}
+.navbar ul li{
+    list-style-type: none;
+    display:  inline-block;
+    margin: 0 190px;
+}
+/* liste */
+.navbar ul li a{
+text-decoration: none;
+color: #ffffff;
+}
+/* liste düzeni ve diğer düzenlemeler */
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color:yellow;
+    text-align: center;
+ }
+ /* tüm yazıları etkileyen genel işlem */
+.content h1{
+    font-size: 70px;
+}
+

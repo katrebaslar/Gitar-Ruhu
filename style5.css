@@ -1,0 +1,59 @@
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+/* başlangıç işlemi*/
+.banner{
+height: 100vh;
+width: 100%;
+background-image: linear-gradient(to right, rgb(88, 11, 11) , rgb(10, 3, 88) );
+background-image: url(megadit.jpg);
+background-position: center ;
+background-size: cover;
+} 
+/* sayfayı kaplayan alan-resim */
+.navbar {
+display: flex;
+width: 90%;
+margin: auto;
+padding: 32px 0;
+align-items: center;
+justify-content: space-between;
+}
+.navbar ul li{
+list-style-type: none;
+display:  inline-block;
+margin: 0 100px;
+}
+/* sayfa düzeni */
+.navbar ul li a{
+text-decoration: none;
+color: yellow
+/* liste renkleri ve diğer düzenleme */
+}
+.content{
+ width: 100%;
+position: absolute;
+top: 79%;
+color: rgb(255, 255, 0);
+text-align: center;
+}
+/* liste düzeni ve diğer düzenlemeler */
+.content h1{
+font-size: 70px;
+text-align: center;
+}
+.content p{
+margin: 20px auto;
+text-align: center;
+}
+.video{
+margin-top: 90px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;
+text-align: center;
+}
+/* eklediğim video */
+

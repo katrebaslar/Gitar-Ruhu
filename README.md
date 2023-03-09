@@ -1,2 +1,2 @@
-# Gitar-
-Gitar temalı mükemmel websitem :P
+# Gitar-Ruhu
+Gitar Temalı Website

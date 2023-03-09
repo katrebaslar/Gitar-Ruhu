@@ -1,0 +1,31 @@
+*{padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+/* başlangıç işlemi*/
+.banner{
+height: 100vh;
+width: 100%;
+background-image: url(kraliçeler.jpg);
+background-size: cover;
+} 
+/* sayfayı kaplayan alan-resim */
+.content{
+width: 100%;
+position: absolute;
+top:15%;
+color:rgb(255, 255, 255);
+text-align: center;
+font-family:system-ui,
+}
+/* tüm yazıları etkileyen genel işlem */
+.content h1{
+ font-size: 65px;   
+color:rgb(255, 255, 255)
+}
+.content h2{
+font-size: 40px;
+color:red
+}
+
+

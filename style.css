@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* başlangıç işlemi*/
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(88, 11, 11) , rgb(10, 3, 88) );
+    background-image: url(mavi\ strat.jpg);
+    background-position: center ;
+    background-size: cover;
+} 
+/* sayfayı kaplayan alan-resim */
+.navbar {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+/* sayfa düzeni */
+.logo{
+  cursor: pointer;
+    border-radius: 50%;
+}
+/* .logo işlemi */
+.navbar ul li{
+list-style-type: none;
+display:  inline-block;
+margin: 0 25px;
+}
+/* liste */
+.navbar ul li a{
+text-decoration: none;
+color: #fff;
+}
+.content{
+width: 100%;
+position: absolute;
+top: 40%;
+color: rgb(255, 255, 255);
+text-align: center;
+/* tüm yazıları etkileyen genel işlem */
+}
+.content h1{
+    font-size: 70px;
+}
+.content p{
+    margin: 20px auto;
+    color:white
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: black;
+    font-size: 17px;
+    /* buton ayarları*/
+}
+button:hover{
+    color: rgb(116, 184, 240);
+    transition: 1s;
+    /* buton animasyonu */
+}
